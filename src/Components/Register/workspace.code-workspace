@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"name": "workspace",
+			"path": "../../../../../workspace"
+		},
+		{
+			"path": "../../../../../interact-thing"
+		},
+		{
+			"path": "../../../../../interact-hw3"
+		},
+		{
+			"path": "../../../../../back-server"
+		},
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../demo"
+		},
+		{
+			"path": "../../../../../1118practice"
+		},
+		{
+			"path": "../../../../../COMIC"
+		},
+		{
+			"path": "../../../../../instAI-fronted prac"
+		},
+		{
+			"path": "../../../../../React-crash-course-2021"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "demo"
+	}
+}

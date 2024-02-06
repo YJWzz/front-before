@@ -1,0 +1,23 @@
+這是設計來負責handle MVP scope開發的components
+
+1. project page : 顯示目前所擁有的模型開發專案，需要增加可以"新增專案" 的按鈕及相關功能 並且在右上角顯示客戶的權限，帳戶名稱，以及相關帳戶功能顯示
+2. create project : 當專案page選擇新增專案時，客戶可以在這裡面命名，左上角有可以跳回專案頁面的按鈕，
+  (1)此外可以在這裡輸入device的serial number,device name 或者可以讓使用者增加device => 多個device並行
+  (2) 或者先選擇跳過 不要設定device的設定
+3. mainPage : 會在左邊顯示四個選擇進度選項 overview , data , device , model 進度條佔據約略左邊15%的page  
+在一開始剛創立好page，右邊的overview是空圖 => 先從空白開始就可以 之後換成空白圖片的示意圖
+4. data page : 在這邊可以上傳圖片 可以從自身裝置上傳 或者從使用者的register空間抓需要使用的圖片 
+=> (1)具有可以多個dataset 的並列資料圖檔庫
+   
+
+
+
+路徑 : 1. login page && signup page
+       2. project page
+       3. CreatePage  => 確認好名字 跳轉到STEP
+       4. Step    => 傳輸資料 跳轉到Downlaod2 ? 確認資料傳輸好之後會轉回Step2
+       5. Step2   => fill up the form 會跳轉到requirment : 或者跳出一個文字輸入框? 反正確認好之後可以進入到Step3 
+       6. Step3   => 確認資料狀態 使用requirment2做確認
+       7. Step4   => 訓練模型 先暫時導覽到sd功能頁面 這邊設計需要討論
+       8  Step5   => 下載模型? 是模型檔案 還是只是生成的圖片 ? 
+==> 使用NavLink 做step 5階段分頁 ? => (1)改善加載問題 可使用已設計好的step css, (2) 減輕資料傳輸量 分成多步驟執行
